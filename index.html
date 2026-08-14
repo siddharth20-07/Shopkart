@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopKart - E-Commerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="#">Shop<span>Kart</span></a>
+  <div class="search">
+    <input id="searchInput" type="text" placeholder="Search products...">
+    <button id="searchBtn">🔍</button>
+  </div>
+  <button class="cart-btn" id="cartBtn">🛒 Cart <span id="cartCount">0</span></button>
+</header>
+
+<nav class="nav">
+  <button class="category active" data-category="all">All</button>
+  <button class="category" data-category="electronics">Electronics</button>
+  <button class="category" data-category="fashion">Fashion</button>
+  <button class="category" data-category="home">Home</button>
+  <button class="category" data-category="beauty">Beauty</button>
+</nav>
+
+<section class="hero">
+  <div>
+    <p class="tag">BIG SAVINGS • NEW ARRIVALS</p>
+    <h1>Shop smarter.<br><span>Live better.</span></h1>
+    <p>Discover quality products at prices you'll love.</p>
+    <button class="shop-now" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">Shop Now</button>
+  </div>
+  <div class="hero-card">🛍️<br><small>UP TO 50% OFF</small></div>
+</section>
+
+<main>
+  <div class="section-title">
+    <div><h2>Popular Products</h2><p id="resultText">Showing all products</p></div>
+    <select id="sortSelect">
+      <option value="default">Sort by</option>
+      <option value="low">Price: Low to High</option>
+      <option value="high">Price: High to Low</option>
+    </select>
+  </div>
+  <div id="products" class="products"></div>
+</main>
+
+<div class="overlay" id="overlay"></div>
+<aside class="cart-panel" id="cartPanel">
+  <div class="cart-head"><h2>Your Cart</h2><button id="closeCart">✕</button></div>
+  <div id="cartItems" class="cart-items"></div>
+  <div class="cart-footer">
+    <div class="total"><span>Total</span><strong id="cartTotal">₹0</strong></div>
+    <button class="checkout" id="checkoutBtn">Proceed to Checkout</button>
+  </div>
+</aside>
+
+<div class="modal" id="checkoutModal">
+  <div class="modal-box">
+    <button class="modal-close" id="closeModal">✕</button>
+    <h2>Checkout</h2>
+    <p class="muted">Enter your delivery details.</p>
+    <form id="checkoutForm">
+      <input required placeholder="Full Name">
+      <input required type="tel" pattern="[0-9]{10}" placeholder="10-digit Mobile Number">
+      <textarea required placeholder="Delivery Address"></textarea>
+      <select required><option value="">Payment Method</option><option>Cash on Delivery</option><option>UPI</option></select>
+      <button class="checkout" type="submit">Place Order</button>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<footer>© 2026 ShopKart • Demo E-commerce Website</footer>
+<script src="script.js"></script>
+</body>
+</html>
