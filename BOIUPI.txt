@@ -1,0 +1,96 @@
+Request ===> {
+  "action": "MobileService",
+  "subAction": "CheckUpdate",
+  "entityID": "agb",
+  "inputParam": {
+    "entityID": "agb",
+    "appVersion": "1.0.0",
+    "deviceID": "627e9c7be29e524d",
+    "mobileOS": "ANDROID",
+    "signature": "807b798781e0ae7026d28e7a8fd333dc24626f039cd4344e73685f03165ced93",
+    "device": {
+      "channel": "MOB",
+      "ip": "100.90.231.126",
+      "deviceID": "627e9c7be29e524d",
+      "os": "Android 15",
+      "app": "com.infra.boiupi",
+      "capability": "5200000200010004000639292929292"
+    }
+  }
+}Request ===> {
+  "action": "MobileService",
+  "subAction": "CheckUpdate",
+  "entityID": "agb",
+  "inputParam": {
+    "entityID": "agb",
+    "appVersion": "1.0.0",
+    "deviceID": "627e9c7be29e524d",
+    "mobileOS": "ANDROID",
+    "signature": "807b798781e0ae7026d28e7a8fd333dc24626f039cd4344e73685f03165ced93",
+    "device": {
+      "channel": "MOB",
+      "ip": "100.90.231.126",
+      "deviceID": "627e9c7be29e524d",
+      "os": "Android 15",
+      "app": "com.infra.boiupi",
+      "capability": "5200000200010004000639292929292"
+    }
+  }
+}Request ===> {
+  "action": "MobileService",
+  "subAction": "CheckUpdate",
+  "entityID": "agb",
+  "inputParam": {
+    "entityID": "agb",
+    "appVersion": "1.0.0",
+    "deviceID": "627e9c7be29e524d",
+    "mobileOS": "ANDROID",
+    "signature": "807b798781e0ae7026d28e7a8fd333dc24626f039cd4344e73685f03165ced93",
+    "device": {
+      "channel": "MOB",
+      "ip": "100.90.231.126",
+      "deviceID": "627e9c7be29e524d",
+      "os": "Android 15",
+      "app": "com.infra.boiupi",
+      "capability": "5200000200010004000639292929292"
+    }
+  }
+}Request ===> {
+  "action": "MobileService",
+  "subAction": "CheckUpdate",
+  "entityID": "agb",
+  "inputParam": {
+    "entityID": "agb",
+    "appVersion": "1.0.0",
+    "deviceID": "627e9c7be29e524d",
+    "mobileOS": "ANDROID",
+    "signature": "807b798781e0ae7026d28e7a8fd333dc24626f039cd4344e73685f03165ced93",
+    "device": {
+      "channel": "MOB",
+      "ip": "100.90.231.126",
+      "deviceID": "627e9c7be29e524d",
+      "os": "Android 15",
+      "app": "com.infra.boiupi",
+      "capability": "5200000200010004000639292929292"
+    }
+  }
+}Request ===> {
+  "action": "MobileService",
+  "subAction": "CheckUpdate",
+  "entityID": "agb",
+  "inputParam": {
+    "entityID": "agb",
+    "appVersion": "1.0.0",
+    "deviceID": "627e9c7be29e524d",
+    "mobileOS": "ANDROID",
+    "signature": "807b798781e0ae7026d28e7a8fd333dc24626f039cd4344e73685f03165ced93",
+    "device": {
+      "channel": "MOB",
+      "ip": "100.81.62.229",
+      "deviceID": "627e9c7be29e524d",
+      "os": "Android 15",
+      "app": "com.infra.boiupi",
+      "capability": "5200000200010004000639292929292"
+    }
+  }
+}
